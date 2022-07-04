@@ -1,0 +1,39 @@
+#square {
+  height: 300px;
+  width: 300px;
+  border: 5px solid black;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#container {
+  display: flex;
+}
+
+#input,
+#properties {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+}
+
+input {
+  width: 100px;
+}
+
+button {
+  margin-top: 8px;
+}
+
+p {
+  font-weight: bold;
+}
+
+#copy-paste > p {
+  color: purple;
+}

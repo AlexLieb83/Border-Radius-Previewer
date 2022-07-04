@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Border Radius Previewer</title>
+  </head>
+  <body>
+    <h1>Border Radius Previewer</h1>
+    <h2>Change the Values Below to See How the Box Changes</h2>
+    <div id="square"></div>
+    <div id="container">
+      <div id="input">
+        <p>Enter Number (will reflect change in pixels)</p>
+        <span>Top-Left</span>
+        <input type="number" id="top-left" />
+        <span>Top-Right</span>
+        <input type="number" id="top-right" />
+        <span>Bottom-Left</span>
+        <input type="number" id="bottom-left" />
+        <span>Bottom-Right</span>
+        <input type="number" id="bottom-right" />
+        <button id="button">Change Box</button>
+      </div>
+      <div id="properties">
+        <p>Copy and paste if you would like to use this style</p>
+        <p id="copy-paste"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
